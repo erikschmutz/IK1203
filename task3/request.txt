@@ -1,0 +1,2 @@
+
+GET /ask?hostname=localhost&port=10004 PTTH/1.1    

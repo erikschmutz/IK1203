@@ -1,0 +1,17 @@
+{
+  "name": "live-c-reload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "javac ./src/*.java  -d ./dist/out && java -classpath ./dist/out/ -ea HTTPAsk 8888",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.1"
+  }
+}

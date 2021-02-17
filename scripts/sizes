@@ -1,0 +1,9 @@
+==> smtp.sh <==
+
+HELO mail.private.lab
+MAIL FROM: <uesrakdfasdfhaksd1@private.lab> 
+RCPT TO: <user1@private.lab> 
+DATA
+A test message from student at time 09:10
+.
+quit
